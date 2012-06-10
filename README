@@ -1,0 +1,19 @@
+bfi is a Brainfuck interpreter written in C by Susam Pal <susam@susam.in>.
+It interprets and executes Brainfuck code. Installation instructions for
+Linux operating system is provided in the source directory. Since, the
+interpreter is written in C, it should be possible to compile the
+interpreter and use it in any architecture or operating system.
+
+Brainfuck is an esoteric programming language with only eight commands.
+See <http://en.wikipedia.org/wiki/Brainfuck> for more information on the
+language, its commands and sample programs.
+
+Installation instructions can be found in the INSTALL file.
+
+This is free software. You are permitted to redistribute and use it in
+source and binary forms, with or without modification, under the terms
+of the New BSD License. See the LICENSE file for the complete license.
+
+This software is provided WITHOUT ANY WARRANTY; without even the implied
+warranties of MERCHANTIBILITY and FITNESS FOR A PARTICULAR PURPOSE. See
+the LICENSE file for more details.
