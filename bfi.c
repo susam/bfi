@@ -123,7 +123,7 @@ void interpret(char *filename)
     }
     if ((stack = malloc(STACK_SIZE * sizeof *stack)) == NULL) {
         fprintf(stderr, "%s: Out of memory while creating loop stack "
-                        "of size %lu\n", info.pname, STACK_SIZE);
+                        "of size %lu\n", info.pname, stack_size);
         exit(EXIT_FAILURE);
     }
 
